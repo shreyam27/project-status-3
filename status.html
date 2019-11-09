@@ -1,0 +1,75 @@
+ackage main
+
+import (
+	"html/template"
+)
+
+var layoutMarkup = `
+	{{define "layout"}}
+		<!DOCTYPE html>
+		<html>
+		<head>
+			<style>
+				body {
+					max-width: 800px;
+					margin: 2rem auto;
+				}
+
+				header {
+					background-color: #8ac5c3;
+				}
+
+				footer {
+					background-color: #edece8;
+				}
+			</style>
+			<title>Project status report</title>
+		</head>
+		<body>
+			<header></header>
+			{{block "content" .}}
+
+			{{end}}
+			<footer>This is the footer</footer>
+		</body>
+	{{end}}
+`
+
+var indexMarkup = `
+{{define "content"}}
+	<div align="right">
+        Jack Ly (jack.ly@yale.edu)<br>
+        Shreya Manjunath (shreya.manjunath@yale.edu) <br>
+        Nikhita Gupta(nikhita.gupta@yale.edu)<br>
+        Lira Lourdes(lourdes.lira@yale.edu)<br>
+</div>z
+
+<div style="text-align:center">
+    <h1>Inner Surf Coding Team</h1>
+    <h3>Project Status Report 2</h3>
+    <span>November 9</span><br>
+</div>
+<div>
+<h3>Burndown chart</h3>
+<img src="shreyam27.github.io/Burndown chart.PNG" height="850" width="1000">
+<img src="shreyam27.github.io/Completed stories.PNG" height="450" width="1000">
+<h3> Sprint Completed Stories</h3>
+<ul>
+<li>View about page - Enhancement</li>
+<li>Create event - Enhancement</li>
+<li>RSVP related database update - DB Schema Update</li>
+<li>RSVP for the event - Enhancement</li>
+<li>View event details - Enhancement</li>
+<li>Images in events - Bug</li>
+</ul>
+<p>We worked on the functionalities that add most value to the user including creating events, viewing event details, RSVP for the events and about page. We also worked on bug fixing. We faced challenges related to parsing of time on the create events page which we will fix in the next sprint. In this sprint, we worked on separate branches and merged the pull requests. This enabled the devlopers to work on the code simultaneously.  </p>
+</div>
+<div>
+<h3>Product Backlog</h3>
+<p>While we have not determined the final contents of the sprint 3, we will focus on analytics tracking. We will also spruce up the app with error handling, improving look and feel and fixing bugs.
+<li>Tracking analytics</li>
+<li>Error handling</li>
+<li>Aesthetics of the app</li>
+</div>
+{{end}}
+`
