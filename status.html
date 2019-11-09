@@ -35,7 +35,7 @@ var layoutMarkup = `
 	{{end}}
 `
 
-var indexMarkup = `
+var statusMarkup = `
 {{define "content"}}
 	<div align="right">
         Jack Ly (jack.ly@yale.edu)<br>
@@ -73,3 +73,6 @@ var indexMarkup = `
 </div>
 {{end}}
 `
+
+var layoutTemplate = template.Must(template.New("layout").Parse(layoutMarkup))
+var statusTemplate = template.Must(template.Must(layoutTemplate.Clone()).Parse(statusMarkup))
