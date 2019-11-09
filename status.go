@@ -37,8 +37,8 @@ var statusMarkup = `
 </div>
 <div>
 <h3>Burndown chart</h3>
-<img src="https://i.imgur.com/fuKRmRI.png" height="850" width="1000">
-<img src="https://i.imgur.com/NDtg3oK.png" height="450" width="1000">
+<img src="https://i.imgur.com/TEKVck4.png" height="850" width="1000">
+<img src="https://i.imgur.com/lyJxCTk.png" height="450" width="1000">
 <h3> Sprint Completed Stories</h3>
 <ul>
 <li>View about page - Enhancement</li>
@@ -47,8 +47,9 @@ var statusMarkup = `
 <li>RSVP for the event - Enhancement</li>
 <li>View event details - Enhancement</li>
 <li>Images in events - Bug</li>
+<li>Logo in header and footer - Enhancement</li>
 </ul>
-<p>We worked on the functionalities that add most value to the user including creating events, viewing event details, RSVP for the events and about page. We also worked on bug fixing. We faced challenges related to parsing of time on the create events page which we will fix in the next sprint. In this sprint, we worked on separate branches and merged the pull requests. This enabled the devlopers to work on the code simultaneously.  </p>
+<p>We worked on the functionalities that add most value to the user including creating events, viewing event details and RSVP for the events. We also added the about page and logos. Additionally, we fixed a bug. We faced challenges related to parsing of time on the create events page which we will fix in the next sprint. In this sprint, we worked on separate branches and merged the pull requests. This enabled the devlopers to work on the code simultaneously.  </p>
 </div>
 <div>
 <h3>Product Backlog</h3>
@@ -56,6 +57,7 @@ var statusMarkup = `
 <li>Tracking analytics</li>
 <li>Error handling</li>
 <li>Aesthetics of the app</li>
+<li>Time parsing bug in create event</li>
 </div>
 {{end}}
 `
