@@ -1,4 +1,4 @@
-ackage main
+package main
 
 import (
 	"html/template"
@@ -30,7 +30,7 @@ var layoutMarkup = `
 			{{block "content" .}}
 
 			{{end}}
-			<footer>This is the footer</footer>
+			<footer></footer>
 		</body>
 	{{end}}
 `
@@ -42,7 +42,7 @@ var statusMarkup = `
         Shreya Manjunath (shreya.manjunath@yale.edu) <br>
         Nikhita Gupta(nikhita.gupta@yale.edu)<br>
         Lira Lourdes(lourdes.lira@yale.edu)<br>
-</div>z
+</div>
 
 <div style="text-align:center">
     <h1>Inner Surf Coding Team</h1>

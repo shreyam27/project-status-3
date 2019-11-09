@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"net/http"
 	"os"
-	"strings"
 )
 
 func getEnv(key, fallback string) string {
@@ -13,6 +12,10 @@ func getEnv(key, fallback string) string {
 		return value
 	}
 	return fallback
+}
+
+func statusHandler(w http.ResponseWriter, r *http.Request) {
+	statusTemplate.Execute(w, fmt.Sprintf("Project status 2"))
 }
 
 func main() {
