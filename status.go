@@ -9,20 +9,6 @@ var layoutMarkup = `
 		<!DOCTYPE html>
 		<html>
 		<head>
-			<style>
-				body {
-					max-width: 800px;
-					margin: 2rem auto;
-				}
-
-				header {
-					background-color: #8ac5c3;
-				}
-
-				footer {
-					background-color: #edece8;
-				}
-			</style>
 			<title>Project status report</title>
 		</head>
 		<body>
@@ -51,8 +37,8 @@ var statusMarkup = `
 </div>
 <div>
 <h3>Burndown chart</h3>
-<img src="shreyam27.github.io/Burndown chart.PNG" height="850" width="1000">
-<img src="shreyam27.github.io/Completed stories.PNG" height="450" width="1000">
+<img src="/Burndown chart.PNG" height="850" width="1000">
+<img src="/Completed stories.PNG" height="450" width="1000">
 <h3> Sprint Completed Stories</h3>
 <ul>
 <li>View about page - Enhancement</li>
