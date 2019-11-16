@@ -37,7 +37,7 @@ var statusMarkup = `
 </div>
 <div>
 <h3>Burndown chart</h3>
-<img src="https://i.imgur.com/CAwpbfI.png" height="850" width="1000">
+<img src="https://i.imgur.com/CAwpbfI.png" height="775" width="1000">
 <img src="https://i.imgur.com/q0ZVbGV.png" height="450" width="1000">
 <h3> Sprint Completed Stories</h3>
 <ul>
@@ -60,6 +60,11 @@ var statusMarkup = `
 <li>Aesthetics of the app</li>
 </ul>
 </div>
+<div>
+<h3>Google Analytics</h3>
+<p> Google analytics data on the traffic flow from different groups of users follows: </p>
+https://i.imgur.com/zf6eG2k.png
+<img src="https://i.imgur.com/zf6eG2k.png" height="400" width="1000">
 {{end}}
 `
 
