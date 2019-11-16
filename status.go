@@ -37,8 +37,8 @@ var statusMarkup = `
 </div>
 <div>
 <h3>Burndown chart</h3>
-<img src="https://i.imgur.com/TEKVck4.png" height="850" width="1000">
-<img src="https://i.imgur.com/CAwpbfI.png" height="450" width="1000">
+<img src="https://i.imgur.com/CAwpbfI.png" height="850" width="1000">
+<img src="https://i.imgur.com/q0ZVbGV.png" height="450" width="1000">
 <h3> Sprint Completed Stories</h3>
 <ul>
 <li>AB testing (via programming) - Enhancement</li>
@@ -49,13 +49,13 @@ var statusMarkup = `
 <li>Time incorrectly parsed in new events - Bug</li>
 <li>Bootstrap CSS inclusion - Enhancement</li>
 </ul>
-<p>Worked on setting up Google analytics and programtically performed AB testing. Additionally, we worked on error handling for create and RSVP page. We also added the confirmation code for RSVP. We also fixed bugs. We faced challenges related to Google Optimize for AB testing and therefore decided to use a programming approach.</p>
+<p>We worked on setting up Google analytics and programtically performed AB testing. Additionally, we worked on error handling for create and RSVP page. We also added the hash based confirmation code for the email after RSVP. We also fixed bugs. We faced challenges related to Google Optimize for AB testing and therefore decided to use a programming approach.</p>
 </div>
 <div>
 <h3>Product Backlog</h3>
-<p>We will focus on API, bug fixing and aesthetic aspects of the app in the remaining time period. We will check the user preference as part of AB testing via tracking the contents of the Heroku DB where we are storing this data.
+<p>We will focus on APIs, bug fixing and aesthetic aspects of the app in the remaining time period. We will check the user preference as part of AB testing via tracking the contents of the Heroku DB where we are storing this data.
 <ul>
-<li>API</li>
+<li>APIs for the app</li>
 <li>Bug fixing</li>
 <li>Aesthetics of the app</li>
 </ul>
