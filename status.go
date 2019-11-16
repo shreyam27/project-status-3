@@ -32,8 +32,8 @@ var statusMarkup = `
 
 <div style="text-align:center">
     <h1>Inner Surf Coding Team</h1>
-    <h3>Project Status Report 2</h3>
-    <span>November 9</span><br>
+    <h3>Project Status Report 3</h3>
+    <span>November 16</span><br>
 </div>
 <div>
 <h3>Burndown chart</h3>
