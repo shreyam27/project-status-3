@@ -63,7 +63,6 @@ var statusMarkup = `
 <div>
 <h3>Google Analytics</h3>
 <p> Google analytics data on the traffic flow from different groups of users follows: </p>
-https://i.imgur.com/zf6eG2k.png
 <img src="https://i.imgur.com/zf6eG2k.png" height="400" width="1000">
 {{end}}
 `
