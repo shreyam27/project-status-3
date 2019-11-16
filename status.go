@@ -38,26 +38,27 @@ var statusMarkup = `
 <div>
 <h3>Burndown chart</h3>
 <img src="https://i.imgur.com/TEKVck4.png" height="850" width="1000">
-<img src="https://i.imgur.com/lyJxCTk.png" height="450" width="1000">
+<img src="https://i.imgur.com/CAwpbfI.png" height="450" width="1000">
 <h3> Sprint Completed Stories</h3>
 <ul>
-<li>View about page - Enhancement</li>
-<li>Create event - Enhancement</li>
-<li>RSVP related database update - DB Schema Update</li>
-<li>RSVP for the event - Enhancement</li>
-<li>View event details - Enhancement</li>
-<li>Images in events - Bug</li>
-<li>Logo in header and footer - Enhancement</li>
+<li>AB testing (via programming) - Enhancement</li>
+<li>Track analytics - Google analytics</li>
+<li>Error handling for create page - Enhancement</li>
+<li>Error handling for RSVP - Enhancement</li>
+<li>Confirmation code for RSVP - Enhancement</li>
+<li>Time incorrectly parsed in new events - Bug</li>
+<li>Bootstrap CSS inclusion - Enhancement</li>
 </ul>
-<p>We worked on the functionalities that add most value to the user including creating events, viewing event details and RSVP for the events. We also added the about page and logos. Additionally, we fixed a bug. We faced challenges related to parsing of time on the create events page which we will fix in the next sprint. In this sprint, we worked on separate branches and merged the pull requests. This enabled the devlopers to work on the code simultaneously.  </p>
+<p>Worked on setting up Google analytics and programtically performed AB testing. Additionally, we worked on error handling for create and RSVP page. We also added the confirmation code for RSVP. We also fixed bugs. We faced challenges related to Google Optimize for AB testing and therefore decided to use a programming approach.</p>
 </div>
 <div>
 <h3>Product Backlog</h3>
-<p>While we have not determined the final contents of the sprint 3, we will focus on analytics tracking. We will also spruce up the app with error handling, improving look and feel and fixing bugs.
-<li>Tracking analytics</li>
-<li>Error handling</li>
+<p>We will focus on API, bug fixing and aesthetic aspects of the app in the remaining time period. We will check the user preference as part of AB testing via tracking the contents of the Heroku DB where we are storing this data.
+<ul>
+<li>API</li>
+<li>Bug fixing</li>
 <li>Aesthetics of the app</li>
-<li>Time parsing bug in create event</li>
+</ul>
 </div>
 {{end}}
 `
