@@ -37,8 +37,8 @@ var statusMarkup = `
 </div>
 <div>
 <h3>Burndown chart</h3>
-<img src="https://i.imgur.com/CAwpbfI.png" height="850" width="1000">
-<img src="https://i.imgur.com/q0ZVbGV.png" height="450" width="1000">
+<img src="https://i.imgur.com/o5SYIHu.png" height="850" width="1000">
+<img src="https://i.imgur.com/Ak2noxg.png" height="450" width="1000">
 <h3>Completed Stories across all sprints</h3>
 <ul>
 <li>View about page - Enhancement</li>
